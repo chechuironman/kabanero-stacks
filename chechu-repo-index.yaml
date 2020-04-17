@@ -11,10 +11,10 @@ stacks:
     email: chechuironman@gmail.com
     github-id: chechuironman
   default-template: simple
-  src: https://github.com/chechuironman/kabanero-stacks/releases/download/1.1/react-stack.v0.5.0.source.tar.gz
+  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.5.0.source.tar.gz
   templates:
   - id: simple
-    url: https://github.com/chechuironman/kabanero-stacks/releases/download/1.1/react-stack.v0.5.0.templates.simple.tar.gz
+    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.5.0.templates.simple.tar.gz
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'

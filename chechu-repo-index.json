@@ -5,7 +5,7 @@
 		"language": "react",
 		"projectType": "appsodyExtension",
 		"projectStyle": "Appsody",
-		"location": "https://github.com/chechuironman/kabanero-stacks/releases/tag/1.1react-stack.v0.5.0.templates.simple.tar.gz",
+		"location": "https://github.com/chechuironman/kabanero-stacks/releases/latest/downloadreact-stack.v0.5.0.templates.simple.tar.gz",
 		"links": {
 			"self": "/devfiles/react-stack/devfile.yaml"
 		}
