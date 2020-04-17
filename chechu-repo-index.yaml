@@ -1,0 +1,21 @@
+apiVersion: v2
+stacks:
+- id: react-stack
+  name: React
+  version: 0.5.0
+  description: Runtime for React applications
+  license: Apache-2.0
+  language: react
+  maintainers:
+  - name: Chechu
+    email: chechuironman@gmail.com
+    github-id: chechuironman
+  default-template: simple
+  src: https://github.ibm.com/jesus-arteche/kabanero-stacks/releases/tag/1.0react-stack.v0.5.0.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.ibm.com/jesus-arteche/kabanero-stacks/releases/tag/1.0react-stack.v0.5.0.templates.simple.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.2.7'
+  image: dev.local/appsody/react-stack:0.5.0

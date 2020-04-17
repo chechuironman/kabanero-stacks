@@ -1,0 +1,13 @@
+[
+	{
+		"displayName": "Chechu-Repo React simple template",
+		"description": "Runtime for React applications",
+		"language": "react",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.ibm.com/jesus-arteche/kabanero-stacks/releases/tag/1.0react-stack.v0.5.0.templates.simple.tar.gz",
+		"links": {
+			"self": "/devfiles/react-stack/devfile.yaml"
+		}
+	}
+]
