@@ -20,8 +20,8 @@ stacks:
     appsody-version: '>= 0.2.7'
   image: chechuironman/react-stack:0.5.0
 - id: python-stack
-  name: Python Flask
-  version: 0.2.3
+  name: Python
+  version: 0.2.5
   description: Flask web Framework for Python with CORS enabled
   license: Apache-2.0
   language: python
@@ -30,11 +30,11 @@ stacks:
     email: chechuironman@gmail.com
     github-id: chechuironman
   default-template: simple
-  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.2.3.source.tar.gz
+  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.2.5.source.tar.gz
   templates:
   - id: simple
-    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.2.3.templates.simple.tar.gz
+    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.2.5.templates.simple.tar.gz
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'
-  image: chechuironman/python-stack:0.2.3
+  image: chechuironman/python-stack:0.2.5
