@@ -1,0 +1,24 @@
+[
+	{
+		"displayName": "Chechuironman React simple template",
+		"description": "Runtime for React applications",
+		"language": "react",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.5.0.templates.simple.tar.gz",
+		"links": {
+			"self": "/devfiles/react-stack/devfile.yaml"
+		}
+	},
+	{
+		"displayName": "Chechuironman Python Flask simple template",
+		"description": "Flask web Framework for Python with CORS enabled",
+		"language": "python",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/chechuironman/kabanero-stacks/releases/latest/downloadpython-stack.v0.2.3.templates.simple.tar.gz",
+		"links": {
+			"self": "/devfiles/python-stack/devfile.yaml"
+		}
+	}
+]
