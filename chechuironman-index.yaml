@@ -1,24 +1,5 @@
 apiVersion: v2
 stacks:
-- id: react-stack
-  name: React
-  version: 0.5.0
-  description: Runtime for React applications
-  license: Apache-2.0
-  language: react
-  maintainers:
-  - name: Chechu
-    email: chechuironman@gmail.com
-    github-id: chechuironman
-  default-template: simple
-  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.5.0.source.tar.gz
-  templates:
-  - id: simple
-    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.5.0.templates.simple.tar.gz
-  requirements:
-    docker-version: '>= 17.09.0'
-    appsody-version: '>= 0.2.7'
-  image: chechuironman/react-stack:0.5.0
 - id: python-stack
   name: Python
   version: 0.2.5
@@ -38,3 +19,38 @@ stacks:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'
   image: chechuironman/python-stack:0.2.5
+- id: test-stack
+  name: Node-RED
+  version: 0.1.3
+  description: Node-RED runtime for running flows
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: Nick O'Leary
+    email: nick.oleary@gmail.com
+    github-id: knolleary
+  default-template: simple
+  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/test-stack.v0.1.3.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/test-stack.v0.1.3.templates.simple.tar.gz
+  image: chechuironman/test-stack:0.1.3
+- id: react-stack
+  name: React
+  version: 0.6.0
+  description: Runtime for React applications
+  license: Apache-2.0
+  language: react
+  maintainers:
+  - name: Chechu
+    email: chechuironman@gmail.com
+    github-id: chechuironman
+  default-template: simple
+  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.6.0.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.6.0.templates.simple.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.2.7'
+  image: chechuironman/react-stack:0.6.0
