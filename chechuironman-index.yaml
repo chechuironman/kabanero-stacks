@@ -1,24 +1,5 @@
 apiVersion: v2
 stacks:
-- id: python-stack
-  name: Python
-  version: 0.2.5
-  description: Flask web Framework for Python with CORS enabled
-  license: Apache-2.0
-  language: python
-  maintainers:
-  - name: Chechu
-    email: chechuironman@gmail.com
-    github-id: chechuironman
-  default-template: simple
-  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.2.5.source.tar.gz
-  templates:
-  - id: simple
-    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.2.5.templates.simple.tar.gz
-  requirements:
-    docker-version: '>= 17.09.0'
-    appsody-version: '>= 0.2.7'
-  image: chechuironman/python-stack:0.2.5
 - id: test-stack
   name: Node-RED
   version: 0.1.3
@@ -37,7 +18,7 @@ stacks:
   image: chechuironman/test-stack:0.1.3
 - id: react-stack
   name: React
-  version: 0.6.0
+  version: 0.7.0
   description: Runtime for React applications
   license: Apache-2.0
   language: react
@@ -46,11 +27,30 @@ stacks:
     email: chechuironman@gmail.com
     github-id: chechuironman
   default-template: simple
-  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.6.0.source.tar.gz
+  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.7.0.source.tar.gz
   templates:
   - id: simple
-    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.6.0.templates.simple.tar.gz
+    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/react-stack.v0.7.0.templates.simple.tar.gz
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.2.7'
-  image: chechuironman/react-stack:0.6.0
+  image: chechuironman/react-stack:0.7.0
+- id: python-stack
+  name: Python
+  version: 0.3.4
+  description: Flask web Framework for Python with CORS enabled
+  license: Apache-2.0
+  language: python
+  maintainers:
+  - name: Chechu
+    email: chechuironman@gmail.com
+    github-id: chechuironman
+  default-template: simple
+  src: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.3.4.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/python-stack.v0.3.4.templates.simple.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.2.7'
+  image: chechuironman/python-stack:0.3.4
