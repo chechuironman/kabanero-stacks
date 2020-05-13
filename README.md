@@ -35,7 +35,7 @@ and add the new repo on the reposiroies key:
     - https:
         url: https://github.com/kabanero-io/kabanero-stack-hub/releases/download/0.6.3/kabanero-stack-hub-index.yaml
       name: central
-***    - https:
+    - https:
         url: https://github.com/chechuironman/kabanero-stacks/releases/latest/download/chechuironman-index.yaml
-      name: chechuironman ***
+      name: chechuironman 
 ```
